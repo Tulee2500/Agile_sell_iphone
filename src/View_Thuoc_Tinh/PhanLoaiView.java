@@ -45,6 +45,7 @@ public class PhanLoaiView extends javax.swing.JFrame {
         });
     }
 
+    // show phan loai
     private void showPhanLoai(ArrayList<Model.PhanLoai> arr) {
         dtm = (DefaultTableModel) this.tblPhanLoai.getModel();
         dtm.setRowCount(0);

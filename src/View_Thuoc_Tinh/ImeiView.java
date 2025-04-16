@@ -50,7 +50,7 @@ public class ImeiView extends javax.swing.JFrame {
             }
         });
     }
-
+//show ten
     private void showName() {
         cbbTenSanPham.removeAllItems();
         for (Imei dl : repo.getNames()) {
