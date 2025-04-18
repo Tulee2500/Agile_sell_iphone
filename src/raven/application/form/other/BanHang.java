@@ -650,7 +650,7 @@ private String selectImeiFromList(List<String> imeiList) {
         }
 
         String ID = tblGioHang.getValueAt(row, 0).toString();
-        String Imei = tblGioHang.getValueAt(row, 5).toString(); // Lấy IMEI nếu cần thiết
+        String Imei = tblGioHang.getValueAt(row, 4).toString(); // Lấy IMEI nếu cần thiết
         int IDSanPham;
 
         try {
